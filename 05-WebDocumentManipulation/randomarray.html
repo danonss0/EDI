@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>An array</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>An array</h1>
+		<script>
+			var myArray = []
+
+			// fill in the array with random values
+			// ...
+			for(i=0;i<5;i++){
+				myArray[i]=Math.floor(Math.random() * 5) + 1;
+			}
+			// check if the array is ordered
+			// ...
+			for(i=0;i<5;i++){
+				if(myArray[i]>myArray[i+1]){
+					var inf="Array is not sorted";
+					break;
+				}
+			}
+			// display the array and information in the console
+			// ...
+			console.log(myArray + " "+inf)
+
+		</script>
+	</body>
+</html>

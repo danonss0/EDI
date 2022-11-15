@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create mobile phone</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Create mobile phone</h1>
+		
+		<script>
+			var myphone= {
+				brand: "Samsung",
+				model: "A72",
+				ram:    6,
+				year:   2021,
+				nfc:    'True'
+			};
+			function disp(){
+				window.alert("Brand: "+myphone.brand+"\n"+"Model: "+myphone.model+"\n"+"Ram: "+myphone.ram+"\n"+"Year: "+myphone.year+"\n"+"NFC: "+myphone.nfc)
+			}
+		</script>
+		<button onclick="disp()" type="button">Click</button>
+	</body>
+</html>
